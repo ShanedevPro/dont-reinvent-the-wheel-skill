@@ -3,12 +3,12 @@
 建议仓库名：
 
 ```text
-anti-wheel-skill
+dont-reinvent-the-wheel-skill
 ```
 
 ## 最短流程
 
-1. 在 GitHub 创建一个 public repository，名字用 `anti-wheel-skill`。
+1. 在 GitHub 创建一个 public repository，名字用 `dont-reinvent-the-wheel-skill`。
 2. 把压缩包解压到本地（如果是从压缩包来的）。
 3. 进入目录。
 4. 初始化 Git 并提交：
@@ -16,14 +16,14 @@ anti-wheel-skill
 ```sh
 git init
 git add .
-git commit -m "initial anti-wheel skill"
+git commit -m "initial don't reinvent the wheel skill"
 ```
 
 5. 连接你的远端仓库并推送：
 
 ```sh
 git branch -M main
-git remote add origin https://github.com/YOUR_NAME/anti-wheel-skill.git
+git remote add origin https://github.com/YOUR_NAME/dont-reinvent-the-wheel-skill.git
 git push -u origin main
 ```
 
@@ -36,9 +36,9 @@ git push -u origin main
 ```sh
 git init
 git add .
-git commit -m "initial anti-wheel skill"
+git commit -m "initial don't reinvent the wheel skill"
 git branch -M main
-gh repo create anti-wheel-skill --public --source=. --remote=origin --push
+gh repo create dont-reinvent-the-wheel-skill --public --source=. --remote=origin --push
 ```
 
 ## 如果你已经有 GitHub 仓库
@@ -48,7 +48,7 @@ gh repo create anti-wheel-skill --public --source=. --remote=origin --push
 ```sh
 git init
 git add .
-git commit -m "initial anti-wheel skill"
+git commit -m "initial don't reinvent the wheel skill"
 git branch -M main
 git remote add origin YOUR_REPO_URL
 git push -u origin main

@@ -1,4 +1,6 @@
-# Anti-Wheel Skill / 反重复造轮子 Skill
+[English](README.md) | **中文**
+
+# Don't Reinvent the Wheel Skill / 不要重复造轮子 Skill
 
 `reuse-before-build` 是一个通用 Agent Skill，用来提醒 AI 编程代理：在开始写自定义代码之前，先检查是否已经有成熟的现成方案。
 
@@ -7,7 +9,7 @@
 建议仓库名：
 
 ```text
-anti-wheel-skill
+dont-reinvent-the-wheel-skill
 ```
 
 ## 包含内容
@@ -15,7 +17,7 @@ anti-wheel-skill
 - `skills/reuse-before-build/SKILL.md`：正式的英文 skill 内容，供支持 `SKILL.md` 的 AI agent 读取和执行。
 - `README.zh-CN.md`：中文开发者说明，也就是当前文件。
 - `docs/skill-reference.zh-CN.md`：中文 skill 参考，解释这个原则应该如何使用。
-- `docs/publish-to-github.zh-CN.md`：如何把这个压缩包发布到 GitHub 私有仓库。
+- `docs/publish-to-github.zh-CN.md`：如何把这个仓库发布到 GitHub 公开仓库。
 
 ## 什么时候使用
 

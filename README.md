@@ -1,13 +1,15 @@
-# Anti-Wheel Skill
+**English** | [中文](README.zh-CN.md)
 
-Anti-Wheel Skill is a small agent skill that asks an AI coding agent to check mature existing solutions before writing custom software.
+# Don't Reinvent the Wheel Skill
+
+A small agent skill that asks an AI coding agent to check mature existing solutions before writing custom software.
 
 The goal is simple: avoid reinventing the wheel when an open-source project, commercial product, official API, internal tool, or ecosystem-standard library already solves the problem well enough.
 
 Suggested repository name:
 
 ```text
-anti-wheel-skill
+dont-reinvent-the-wheel-skill
 ```
 
 ## What Is Included
@@ -15,7 +17,7 @@ anti-wheel-skill
 - `skills/reuse-before-build/SKILL.md`: official English skill content for agents that support `SKILL.md`.
 - `README.zh-CN.md`: Chinese overview for Chinese-speaking developers.
 - `docs/skill-reference.zh-CN.md`: Chinese reference explaining the principle, workflow, and expected output.
-- `docs/publish-to-github.zh-CN.md`: short Chinese guide for publishing this package to a private GitHub repository.
+- `docs/publish-to-github.zh-CN.md`: short Chinese guide for publishing this package to a public GitHub repository.
 
 ## When To Use
 
